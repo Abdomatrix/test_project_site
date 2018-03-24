@@ -370,9 +370,45 @@ header .navbar ul li a:hover
 .testmonials
 {
     background-color: #f2f2f2;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
+}
+
+.testmonials q
+{
+    line-height: 1.7;
+    color: #888;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.testmonials h3
+{
+    color: #555;
+    margin-bottom: 30px
+}
+
+.testmonials ul
+{
+    list-style: none;
+    padding-left: 0 ;
+    text-align:center;
+}
+
+.testmonials ul li
+{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #2DCC70 ;
+    display: inline-block;
+}
+
+.testmonials ul li.active,
+.testmonials ul li:hover
+{
+    background-color: #2DCC70
 }
 /* end testmonials */
 
