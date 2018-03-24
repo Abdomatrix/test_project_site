@@ -1,7 +1,7 @@
 /* strat main */
 body
 {
-    background-color: #888;
+    /* background-color: #888; */
     height: 600px;
 }
 .container
@@ -294,10 +294,75 @@ header .navbar ul li a:hover
     padding-bottom: 30px;
     overflow: hidden;
 }
-.education .main ,
+
+.education .main
+{
+    width: 50%;
+    margin-right: 5%;
+    float: left;
+}
+
+.education .main h2
+{
+    margin: 25px 0 20px 40px;
+    color: #555
+}
+
+.education .main p
+{
+    margin: 0 0 10px 40px;
+    line-height: 1.6;
+    color: #666
+}
+
+.education .main p:last-of-type
+{
+    margin-top: 25px;
+}
+
 .education .exp
 {
-    float: left;
+    width: 45%;
+    float: left
+}
+
+.education .exp h3
+{
+    margin-top: 80px
+    margin-bottom:10px;
+}
+
+.education .exp span
+{
+    display: block;
+    margin-bottom: 10px
+}
+
+.education .exp span:first-of-type
+{
+    color: #999
+}
+
+.education .exp span:last-of-type
+{
+    background-color: #2DCC70;
+    color:#FFF;
+    display: inline-block;
+    padding:4px 10px
+}
+
+.education .exp hr
+{
+    margin: 20px 0;
+    background-color: #999;
+    height: 1px;
+    border: 0
+}
+
+.education .exp .p
+{
+    line-height: 1.7;
+    color: #777
 }
 /* end my education */
 
