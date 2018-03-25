@@ -461,19 +461,76 @@ header .navbar ul li a:hover
 {
     background-color: #252F31;
     overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
 }
+
 .contact h2
 {
     color: #fff;
+    margin-left: 40px;
 }
-.contact p{
-    color: #6A6E71; 
-}
-.contact .info ,
-.contact .form
+
+.contact .info
 {
     width: 50%;
+    margin-right: 5%;
     float: left;
+}
+
+.contact p{
+    color: #6A6E71; 
+    margin-left: 40px;
+    line-height: 1.7;
+}
+
+.contact p strong
+{
+    color: #D1D6DA;
+    margin-right: 20px;
+}
+
+.contact .form
+{
+    width: 45%;
+    float: left;
+}
+
+.contact .form label
+{
+    display: block;
+    color: #D1D6DA;
+    margin: 10px 0;
+}
+
+.contact .form input[type="text"]
+{
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: none;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.contact .form textarea
+{
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: none;
+    width: 80%;
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+.contact .form input[type="submit"]
+{
+    background-color: #191e22;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
 }
 /* end contact me */
 
