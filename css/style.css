@@ -415,9 +415,21 @@ header .navbar ul li a:hover
 /* start portfolio */
 .portfolio
 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 70px;
     text-align: center;
+}
+
+.portfolio h2
+{
+    color: #777
+}
+
+.portfolio p
+{
+    line-height: 1.7;
+    color: #666;
+    margin-bottom: 30px;
 }
 
 .portfolio .ourwork
@@ -436,6 +448,10 @@ header .navbar ul li a:hover
 {
     width: 92%;
     margin: 10px;
+    padding: 3px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 10px 10px 5px #CCC;
 
 }
 /* end portfolio */
