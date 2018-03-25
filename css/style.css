@@ -522,6 +522,7 @@ header .navbar ul li a:hover
     width: 80%;
     margin-bottom: 10px;
     height: 300px;
+    resize: none;
 }
 
 .contact .form input[type="submit"]
