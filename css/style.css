@@ -63,10 +63,10 @@ header .navbar
     overflow: hidden;
 }
 
-header .navbar h2
+/* header .navbar h2
 {
     float: left;
-}
+} */
 
 header .navbar h2 span
 {
@@ -112,8 +112,8 @@ header .navbar ul li a:hover
 {
     float: left;
     width: 33.33333% ;
-    height: 150px ;
-    background-color: #ddd ;
+    height: 100px ;
+    /* background-color: #ddd ; */
 }
 
 .features .feat h2
@@ -582,4 +582,8 @@ header .navbar ul li a:hover
     font-weight:bold
 }
 
+.fl-left
+{
+    float: left;
+}
 /* End my freamework */
