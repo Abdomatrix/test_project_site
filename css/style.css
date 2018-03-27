@@ -178,6 +178,15 @@ header .navbar ul li a:hover
     margin: 15px 0 0 40px;
 }
 
+.text i
+{
+    margin-top: 30px;
+    float: left;
+    margin-right: 20px;
+    margin-top: -.2px;
+    color: #2DCC70;
+}
+
 .aboutme .info .hobies img
 {
     float: left;
@@ -549,6 +558,7 @@ header .navbar ul li a:hover
 .footer span
 {
     float: left;
+    margin-top: 5px;
 }
 
 .footer ul
@@ -565,10 +575,15 @@ header .navbar ul li a:hover
     margin-left: 10px;
 }
 
-.footer ul li img
+/* .footer ul li img
 {
     width: 24px;
     height: 24px;
+} */
+
+.footer ul li i:hover
+{
+    color: #FFF;
 }
 /* end footer */
 
